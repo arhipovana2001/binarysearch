@@ -5,7 +5,7 @@ find_list = []
 n = int(input('Enter the quanity:'))
 
 for i in range(n):
-    find_list.append(random.randint(-10, 10))
+    find_list.append(random.randint(-100, 100))
 find_list.sort()
 
 print('Random list:', find_list)
